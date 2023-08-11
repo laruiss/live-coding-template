@@ -1,4 +1,4 @@
-import 'virtual:unocss'
+import 'virtual:uno.css'
 
 import './assets/main.css'
 
