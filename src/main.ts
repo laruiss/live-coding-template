@@ -1,3 +1,5 @@
+import 'virtual:unocss'
+
 import './assets/main.css'
 
 import { createApp } from 'vue'
