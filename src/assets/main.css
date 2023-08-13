@@ -9,27 +9,19 @@
 }
 
 a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+@keyframes spin {
+  0% {transform:rotate(0deg);}
+  25% {transform:rotate(180deg);}
+  75% {transform:rotate(270deg);}
+  to {transform:rotate(360deg);}
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.spin {
+  animation: spin 1000ms linear infinite;
 }

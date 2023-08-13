@@ -2,13 +2,35 @@
 
 Ce gabarit possède tous les outils configurés pour développer un projets Vue 3 avec Vite.
 
+## Notes concernant la configuration de Vite
+
+Vite est déjà configuré pour :
+
+- Transformer les fichiers Vue (`.vue`)
+- Autoimporter ce qui est exposé par `vue` (`ref`, `computed`, `type Ref`, etc.), `vue-router` ('useRoute', 'useRouter', etc.) et pinia ('defineStore', etc.)
+- Utiliser UnoCSS (comme tailwind ou windicss en mieux), notamment avec les icônes (`<span class="i-ri-arrow-right-line">`)
+
+## Installation des dépendances
+
+```sh
+npm install
+```
+
+### Compilation et Hot-Reload pour le développement
+
+```sh
+npm run dev
+```
+
+## Énoncé de l’exercice
+
 Pour l’énoncé de l’exercice, Cf. [Exercice](./Exercice.md)
 
 ## Configuration recommandée
 
 - Visual Studio Code avec ces extensions :
   - [VSCode](https://code.visualstudio.com/)
-  - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur)
+  - [Vue Language Features (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (et Vetur désactivé)
   - [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
@@ -24,18 +46,6 @@ Si le plugin TypeScript ne vous semble pas assez performant, Volar a aussi impl�
     1) Lancer `Extensions: Show Built-in Extensions` depuis la palette de commandes VSCode
     2) Trouver `TypeScript and JavaScript Language Features`, cliquer avec le bouton droit et sélectionner `Disable (Workspace)`
 2. Recharger la fenêtre VSCode en lançant `Developer: Reload Window` depuis la palette de commandes.
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compilation et Hot-Reload pour le développement
-
-```sh
-npm run dev
-```
 
 ### Vérification des types, Compilation et Minification pour la Production
 
