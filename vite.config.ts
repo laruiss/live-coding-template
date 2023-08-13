@@ -14,6 +14,7 @@ export default defineConfig({
     vueJsx(),
     AutoImport({
       imports: [
+        'vitest',
         'vue',
         'vue-router',
         'pinia',

@@ -2,11 +2,10 @@
 
 ## Le but du projet
 
-Le but du projet est de tester vos connaissances du framework Vue.js et de son écosystème :
+Le but du projet est de tester vos connaissances du framework Vue.js, son écosystème, et l’écosystème JS/TS :
 
+- les directives vue
 - la gestion des requêtes en tâche de fond (fetch ou axios ou alova ou oh-my-fetch ou autre, libre à vous)
-- pinia
-- vue-router
 
 ## Seront attendus
 
@@ -15,12 +14,12 @@ Le but du projet est de tester vos connaissances du framework Vue.js et de son �
 - du code propre, facile à lire et à comprendre
 - une bonne indentation du code
 - une bonne organisation du code
-- tests unitaires (au moins un)
 
 - Bonus :
+  - tests unitaires (au moins un)
   - bonne UI
   - bonne UX
-  - ARIA
+  - bonne a11y
   - balise `title` changeant pour chaque page
 
 ## Prérequis
